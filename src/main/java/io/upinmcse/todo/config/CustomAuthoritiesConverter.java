@@ -22,7 +22,7 @@ public class CustomAuthoritiesConverter implements Converter<Jwt, Collection<Gra
 
         Object roles = realmAccessMap.get(ROLES);
 
-        if (roles instanceof List stringRoles){
+        if (roles instanceof List<?> stringRoles){
             return ((List<String>) stringRoles)
                     .stream()
                     .map(s ->  new SimpleGrantedAuthority(String.format("%s%s", ROLE_PREFIX, s)))
