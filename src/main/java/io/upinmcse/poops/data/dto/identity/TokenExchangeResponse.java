@@ -1,4 +1,4 @@
-package io.upinmcse.todo.data.dto.identity;
+package io.upinmcse.poops.data.dto.identity;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;

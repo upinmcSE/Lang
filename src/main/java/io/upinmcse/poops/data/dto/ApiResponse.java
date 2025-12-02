@@ -1,4 +1,4 @@
-package io.upinmcse.todo.data.dto;
+package io.upinmcse.poops.data.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;

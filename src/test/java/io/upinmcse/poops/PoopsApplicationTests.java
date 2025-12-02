@@ -1,10 +1,10 @@
-package io.upinmcse.todo;
+package io.upinmcse.poops;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TodoApplicationTests {
+class PoopsApplicationTests {
 
     @Test
     void contextLoads() {

@@ -1,4 +1,4 @@
-package io.upinmcse.todo.data.dto.identity;
+package io.upinmcse.poops.data.dto.identity;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
@@ -8,8 +8,6 @@ import lombok.experimental.FieldDefaults;
 @AllArgsConstructor
 @Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class Credential {
-    String type;
-    String value;
-    boolean temporary;
+public class KeyCloakError {
+    String errorMessage;
 }

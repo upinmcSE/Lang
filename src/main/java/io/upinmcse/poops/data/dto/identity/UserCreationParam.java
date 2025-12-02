@@ -1,4 +1,4 @@
-package io.upinmcse.todo.data.dto.identity;
+package io.upinmcse.poops.data.dto.identity;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;

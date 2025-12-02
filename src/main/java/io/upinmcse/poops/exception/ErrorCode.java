@@ -1,4 +1,4 @@
-package io.upinmcse.todo.exception;
+package io.upinmcse.poops.exception;
 
 import lombok.Getter;
 import org.springframework.http.HttpStatus;

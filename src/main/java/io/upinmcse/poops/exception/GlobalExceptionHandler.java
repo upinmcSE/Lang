@@ -1,4 +1,4 @@
-package io.upinmcse.todo.exception;
+package io.upinmcse.poops.exception;
 
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 

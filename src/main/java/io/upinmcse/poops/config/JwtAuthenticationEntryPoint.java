@@ -1,9 +1,9 @@
-package io.upinmcse.todo.config;
+package io.upinmcse.poops.config;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.upinmcse.todo.data.dto.ApiResponse;
-import io.upinmcse.todo.exception.ErrorCode;
+import io.upinmcse.poops.data.dto.ApiResponse;
+import io.upinmcse.poops.exception.ErrorCode;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.MediaType;

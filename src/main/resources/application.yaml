@@ -1,9 +1,29 @@
+server:
+  port: 8181
+  servlet:
+    context-path: /poops
+
 spring:
   application:
-    name: todo
+    name: poops
 
   security:
     oauth2:
       resourceserver:
         jwt:
           issuer-uri: http://localhost:8180/realms/identity
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/todo
+    driverClassName: org.postgresql.Driver
+    username: admin
+    password: admin
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+  liquibase:
+    enabled: true
+    change-log: classpath:db/changelog/db.changelog-master.yaml
