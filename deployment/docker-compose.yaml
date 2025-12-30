@@ -26,5 +26,12 @@ services:
     ports:
       - "8180:8080"
 
+  maildev:
+    image: maildev/maildev:latest
+    container_name: maildev
+    ports:
+      - "1080:1080"   # Web UI
+      - "1025:1025"   # SMTP
+    restart: unless-stopped
 volumes:
   postgres_data:

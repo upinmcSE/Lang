@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: 002-create-active-code-table
+      author: thanhD
+      changes:
+        - createTable:
+            tableName: tb_active_code
+            columns:
+              - column:
+                  name:
+                  type:
+                    constraints:
+                      primaryKey: true
